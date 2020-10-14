@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leipomo Hiivatti</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <head>
+        <nav class="navbar">
+            <a href="./index.html" class="logo"><h1>Leipomo Hiivatti</h1></a>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="./index.html#etusivu">Etusivu</a></li>
+                <li class="nav-item"><a href="./tuotteet.html#tuotteet">Tuotteet</a></li>
+                <li class="nav-item"><a href="./yhteystiedot.html#yhteystiedot">Yhteystiedot</a></li>
+            </ul>
+        </nav>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./img/bakery1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/bakery2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/bakery3.jpg" alt=""></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev swiper-button-white"></div>
+                <div class="swiper-button-next swiper-button-white"></div>
+            </div>
+            <div class="container" id="yhteystiedot">
+                <div class="flex-child">
+                    <h2>Myymälä</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2535.7497247040096!2d25.02526883884582!3d60.18452123303345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sfi!4v1602575719667!5m2!1sen!2sfi" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="flex-child">
+                    <h2>Yhteystiedot</h2>
+                    <ul class="contact-info">
+                        <li>Leipomo Hiivatti</li>
+                        <li>Leipurinkatu 29</li>
+                        <li>00010 Helsinki</li>
+                        <li>puh. 010 123 1234</li>
+                        <li>info@hiivatti.fi</li>
+                    </ul>
+                </div>
+            </div>
+
+            <footer>
+                <nav class="footer-nav">
+                    <ul class="footer-links">
+                        <li class="footer-item"><a href="https://www.facebook.com/" target="_blank"><img class="some" src="./img/facebook.svg" alt="Facebook"></a></li>
+                        <li class="footer-item"><a href="https://www.instagram.com/" target="_blank"><img class="some" src="./img/instagram.svg" alt="Instagram"></a></li>
+                    </ul>
+                </nav>
+                <p>&copy; Leipomo Hiivatti 2020</p>
+            </footer>
+
+    </head>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leipomo Hiivatti</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <head>
+        <nav class="navbar">
+            <a href="./index.html" class="logo"><h1>Leipomo Hiivatti</h1></a>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="./index.html#etusivu">Etusivu</a></li>
+                <li class="nav-item"><a href="./tuotteet.html#tuotteet">Tuotteet</a></li>
+                <li class="nav-item"><a href="./yhteystiedot.html#yhteystiedot">Yhteystiedot</a></li>
+            </ul>
+        </nav>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./img/bakery1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/bakery2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/bakery3.jpg" alt=""></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev swiper-button-white"></div>
+                <div class="swiper-button-next swiper-button-white"></div>
+            </div>
+            <div class="product-container">
+                <h2>Tuotteet</h2>
+                <table class="fixed-header" id="tuotteet">
+                    <thead>
+                    <tr>
+                        <th>Tuotekoodi</th>
+                        <th>Tuetteen nimi</th>
+                        <th>Hinta</th>
+                        <th>Varastosaldo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>P11231</td>
+                        <td><a href="./tuoteinfo.html#pulla">Pulla</a></td>
+                        <td>2,50 &euro;</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>C11232</td>
+                        <td><a href="./tuoteinfo.html#croisant">Croisantti</a></td>
+                        <td>3,20 &euro;</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>L11233</td>
+                        <td><a href="./tuoteinfo.html#leipa">Leipä</a></td>
+                        <td>5,60 &euro;</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>L11235</td>
+                        <td><a href="./tuoteinfo.html#ruisleipa">Ruisleipä</a></td>
+                        <td>4,50 &euro;</td>
+                        <td>81</td>
+                    </tr>
+                    <tr>
+                        <td>K1234</td>
+                        <td><a href="./tuoteinfo.html#kakku">Kakku</a></td>
+                        <td>35,00 &euro;</td>
+                        <td>81</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+            
+            <footer>
+                <nav class="footer-nav">
+                    <ul class="footer-links">
+                        <li class="footer-item"><a href="https://www.facebook.com/" target="_blank"><img class="some" src="./img/facebook.svg" alt="Facebook"></a></li>
+                        <li class="footer-item"><a href="https://www.instagram.com/" target="_blank"><img class="some" src="./img/instagram.svg" alt="Instagram"></a></li>
+                    </ul>
+                </nav>
+                <p>&copy; Leipomo Hiivatti 2020</p>
+            </footer>
+
+    </head>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
