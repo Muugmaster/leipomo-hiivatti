@@ -333,12 +333,20 @@ td:last-child, th:last-child {
     footer img {
         width: 25px;
     }
-    
+
     .container {
         margin: 20vh auto;
         width: 70%;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    #yhteystiedot {
+        width: 100%;
+    }
+
+    .contact-info {
+        text-align: center;
     }
 
     .logo {
