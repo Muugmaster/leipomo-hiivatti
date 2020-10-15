@@ -267,6 +267,14 @@ td:last-child, th:last-child {
     text-align: center;
 }
 
+.container-video h2 {
+    margin: 2rem 0;
+}
+
+.container-video p {
+    margin: 2rem 0;
+}
+
 /*Media Queryt*/
 
 @media screen and (max-width: 666px) {
