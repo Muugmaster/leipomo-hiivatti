@@ -92,6 +92,21 @@ nav {
     line-height: 1.5rem;
 }
 
+.highlight {
+    background-color: #B9C6BC;
+    padding: 1rem 0;
+}
+
+.highlight:hover {
+    background-color: #EEEFEA;
+    transition: 0.3s;
+}
+
+.highlight a {
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     margin: 20vh auto;
     width: 50%;
@@ -244,15 +259,30 @@ td:last-child, th:last-child {
     transition: 0.3s;
 }
 
+/*Video sivu*/
+
+.container-video {
+    margin: 5vh auto;
+    width: 50%;
+    text-align: center;
+}
+
 /*Media Queryt*/
 
 @media screen and (max-width: 666px) {
     nav {
         height: 12rem;
+        text-align: center;
     }
 
+    .nav-links {
+        justify-content: center;
+    }
+
+
     .navbar {
-        display: inline-block;
+        display: block;
+        padding: 0;
     }
 
     .flex-child:last-child {
