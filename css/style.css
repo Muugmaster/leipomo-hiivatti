@@ -322,6 +322,10 @@ td:last-child, th:last-child {
     .logo {
         margin-top: 2rem;
     }
+
+    .container-video {
+        width: 100%;
+    }
 }
 
 
